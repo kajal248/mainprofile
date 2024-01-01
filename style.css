@@ -1,0 +1,727 @@
+*{
+  list-style: none;
+  margin: 0;
+  font-weight: 700;
+  box-sizing: border-box;
+  font-style: myFirstFont;
+  cursor: pointer;}
+
+ section
+
+      { text-align: center;
+    height: 140vh;
+    margin-top: 5px;
+  background-color:  antiquewhite;;
+    }     
+  
+ 
+  h1 {
+    cursor: pointer;
+     padding: 40px 40px;
+    text-align: center;
+    text-shadow: 5px 5px 2px rosybrown;
+    font-size: 70px;
+    font-style: myFirstFont;
+    transition: transform 0.5sc;}
+      
+     h1:hover  
+     { 
+      transform: translatey(-5px);
+     }
+     
+    
+
+      /*--------------nav bar-----------*/
+ nav{
+
+  width: 100%;
+ 
+  background-color: rgb(248, 93, 93);;
+ }    
+ 
+ ul{
+  width: 80%;
+
+
+  padding: 20px 20px;
+ }
+ ul li {
+  transition: transform 0.5sc;
+ list-style-type: none;
+ display: inline-block
+ 
+ 
+ }   
+ nav ul li:hover{
+  background-color:    rgb(211, 14, 14);
+  transform: translatey(-5px);
+
+
+ }
+ ul li a{
+  padding: 20px 30px;
+  color: #000;
+  font-size: 30px;
+  text-decoration: none;
+
+ }
+ .toggle{
+  width: 100%;
+  padding: 20px 20px;
+  display: none;
+  background-color:  antiquewhite;
+  text-align: right;
+  color: #000;
+ }
+
+ 
+
+
+
+/*---------------- home----*/
+
+.container {
+ 
+ position: relative;}
+  
+ 
+
+.container img{
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+
+ width: 100%;
+
+  height: 100%;
+
+}
+.centered {
+   background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(200, 198, 200,0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 50%;
+  padding: 50px;
+  text-align: center;
+}
+
+
+
+/*-------------------for introduction----------*/
+
+.container1{                                  
+  width: 90%;
+  height: 70%;
+  margin-left: 70px;
+  font-weight: 700;
+ padding: 50px 50px; 
+  letter-spacing: 2px;
+  background-color: white;
+  border: 2px solid rgba(255,255,255,0.06);
+  border-radius: 10px;
+  box-shadow: 0 20px 30px rgba(0,0,0,0.2);
+    backdrop-filter: blur(10px);
+} 
+.box
+{
+
+  width: 600px;
+  height: 550px;
+margin: 2px;
+  float: left;
+  padding: 1em;
+
+}
+div.box2 p
+{
+margin-top: 15px;  text-align: left; line-height: 25px; margin-right: 50px;
+
+
+}
+
+a.box4 {
+  text-decoration: none;}
+
+ div .box3{
+ 
+  text-align: left;
+margin-top: 70px;} 
+
+div.box3 h2 {
+
+  text-align: left;
+margin-top: 70px;}
+
+
+
+/* -----------------------------------------------------------------------------end of introducion-----------------------------------------------------*/
+/* ------------------------------------------------------------------------start expirence---------------------------------------------------------------------*/
+.container2{ 
+  height: 70%;                                 
+   width: 90%;
+  margin-right: 30px;
+  margin-left: 60px;
+  margin-bottom: 10px;
+  padding:  1px;
+  background-color: rgb(248, 93, 93);
+  border: 5px solid rgba(255,255,255,0.06);
+  border-radius: 10px;
+  box-shadow: 0 20px 30px rgba(0,0,0,0.5);
+  backdrop-filter: blur(10px);
+}
+  .experince
+  {  
+    height: 70%;
+    margin: 100px;
+    margin-bottom: 250px;
+    padding: 50px 50px;
+    color:  rgb(248, 93, 93);
+     }
+     .experince li
+
+       {  line-height: 55px;
+  margin-top: 10px;
+  text-align: center;
+  font-weight: 700;
+color:rgb(248, 93, 93);}
+
+
+li.btn1{  
+margin-top: 150px;
+ margin-left: 180px;
+ margin-right: 180px;  }
+
+.experince:hover{
+  font-weight: 700;
+  background-color: white;
+  border: 50px;
+ padding: 50px 50px;}
+
+.btn1{
+ 
+   padding: 20px 10px;
+    color: black;
+  border-radius: 14px;
+  font-weight: 500px;
+  font-size: 15px;
+     background-color:   rgb(248, 93, 93);}
+
+/* -----------------------------------------------------------end expirence----------------------------------------------------------------------*/
+
+/*----------------------------------------------------------------start skill-------------------------------------------------------------------------*/
+
+.container-skill{
+ height: 50%;
+  width: 90%;
+  margin-right: 30px;
+  margin-left: 70px;
+  padding: 20px 40px 10px;
+  background-color: white;
+  border: 2px solid rgba(255,255,255,0.06);
+  border-radius: 10px;
+  box-shadow: 0 20px 30px rgba(0,0,0,0.5);
+  backdrop-filter: blur(10px);  font-family: "Poppins",sans-serif;
+  color: black;
+  font-weight: 700;
+} 
+
+h2{
+
+ margin-bottom: 10px;
+text-align: center;
+  font-size: 33px;
+  font-weight: bold;
+}
+.skills:not(:last-child){
+  margin-bottom: 60px;
+}
+.detail{
+  width: 100%;
+  display: flex;  
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+.bar{
+  position: relative;
+
+  border: 2px solid rgb(248, 93, 93);
+
+  border-radius: 10px;
+
+}
+.bar div{
+  position: relative;
+  width: 0;
+  height: 9px;
+  border-radius: 10px;
+  background-color: rgb(248, 93, 93);
+ 
+
+}
+#html-bar{
+  animation: html-fill 2s forwards;
+
+}
+@keyframes html-fill{
+  100%{
+      width: 90%;
+  }
+}
+#css-bar{
+  animation: css-fill 2s forwards;
+}
+@keyframes css-fill{
+  100%{
+      width: 75%;
+  }
+}
+#seo-bar{
+  animation: seo-fill 2s forwards;
+}
+@keyframes seo-fill{
+  100%{
+      width: 65%;
+  }
+}
+#excel-bar{
+  animation: excel-fill 2s forwards;
+}
+@keyframes excel-fill{
+  100%{
+      width: 50%;
+  }
+}
+
+#guestpost-bar{
+  animation: guestpost-fill 2s forwards;
+}
+@keyframes guestpost-fill  {
+  100%{
+      width: 30%;
+  }
+}
+#GBP-bar{
+  animation: GBP-fill 2s forwards;
+}
+@keyframes GBP-fill{
+  100%{
+      width: 90%;
+  }
+} 
+
+#keyword-bar{
+  animation: keyword-fill 2s forwards;
+}
+@keyframes keyword-fill{
+  100%{
+      width: 70%;
+  }
+} 
+#quality-bar{
+  animation: quality-fill 2s forwards;
+}
+@keyframes quality-fill{
+  100%{
+      width: 80%;
+  }
+} 
+/*-----------------------------------------------------------------end skill------------------------------------------------------------------------------- */
+
+
+/*---------------------------------------------------------------------start contact Me----------------------------------------------------------------*/
+
+
+.container3
+
+{grid-template-columns: repeat(auto-fill, minmax(500px,1fr));
+ grid-gap: 30px;
+ margin-top: 100px;
+
+ grid-auto-columns: minmax(100px auto);
+ grid-auto-rows:minmax(100px auto) ;
+ margin-left: 80px;
+ margin-bottom: 50px;
+ padding:  5px;
+display: grid;
+background-color: rgb(248, 93, 93);;
+
+border: 2px solid rgba(29, 224, 224, 0.06);
+border-radius: 10px;
+box-shadow: 0 20px 30px rgba(43, 38, 38, 0.5);
+backdrop-filter: blur(30px);
+border: 10px;
+letter-spacing: 1px; }
+
+ 
+  .follow{
+    
+    background:   white;
+    margin-right: 20px;
+    margin: 15px;
+    padding: 30px
+     }
+ 
+     .social-icon{
+      margin-top: 10px;
+     
+     }
+     .social-icon a {
+      text-decoration: none;
+      font-size: 30px;
+      margin-right: 5px;
+      color:  rgb(248, 93, 93);
+      display: inline-block;
+      padding-left: 5px;
+      transition: transform 0.5sc;
+     } 
+     .social-icon a:hover{
+      color:   rgb(211, 14, 14);
+      transform: translatey(-5px);
+     }  
+
+  .Detail1   {
+    margin-top: 80px;
+    padding-bottom: 5px;
+
+  }
+   p i
+  { margin-right: 10px;
+    color:  rgb(248, 93, 93);
+    display: inline-block;
+    padding-left: 30px;
+   font-size: 50px;
+  }
+ 
+
+ .form-group
+
+{
+  width: 100%;
+  margin-top: 5px;
+    }
+ .form-group textarea 
+{
+ width: 90%;
+ border: 0px;
+ outline: none;
+ background:white ;
+ padding: 15px;
+ margin: 15px 0px;
+ color: #000;
+ font-size: 15px;
+ border-radius: 10px;
+ transition: transform 0.5sc;
+
+  }
+
+  .form-group input  
+
+  {
+   width: 90%;
+   border: 0px;
+   outline: none;
+   background:white ;
+   padding: 15px;
+   margin: 15px 0px;
+   color: #000;
+   font-size: 15px;
+   border-radius: 10px;
+   transition: transform 0.5sc;
+    }
+  form textarea:hover{
+      color: rgb(248, 93, 93);
+      transform: translatey(-5px); }
+
+
+  
+form input:hover{
+  color:   rgb(248, 93, 93);
+  transform: translatey(-5px);
+ }
+
+
+.btn2
+{
+  padding: 10px 30px;
+  margin-bottom: 40px;
+  color: black;
+  border-radius: 10px;
+  font-weight: 50;
+  font-size: 20px;
+ 
+  
+  background-color:  white;
+  transition: transform 0.5sc;
+  
+  }
+   .btn2:hover{
+    color:   rgb(211, 14, 14);
+    transform: translatey(-5px);
+   }  
+
+
+
+ /*-----------------------------end contact------------------------------------------*/
+
+
+#footer
+{ 
+
+  background-color: rgb(248, 93, 93);
+  width: 100%;
+  line-height: 80px;
+  text-align: center;
+  color: black
+
+}
+
+
+
+.icons{display: none;
+
+  font-size: 20px;
+  margin-top: -30px;
+  line-height: 80px;
+  text-align: left;
+ }
+
+
+  .icons a i{
+    font-size: 20px;
+    margin-top: -30px;
+    line-height: 80px;
+    text-align: center;
+color: white;
+transition: transform 0.5sc;}
+
+.icons a i:hover
+{
+ 
+  transform: translatey(-5px);
+  color:   white
+ }  
+
+@media (max-width:1268px)/*--------------till 652  min width with 270 dimension-------*/
+{
+  .toggle{display: block;
+}
+
+
+ul {
+  width: 100%;
+  display: none;
+}
+ul li {
+ display: block;
+ padding: 20px;
+ text-align: center;
+}
+.active{
+  display: block;
+
+  }
+  section
+
+  { 
+height: 200vh;
+
+}   
+  h1 {
+         padding: 20px 20px;
+       font-size: 30px; }
+   
+.container
+  {
+   width:100% ;
+height: 100%;
+  }
+
+ .container.home img
+  {width: 100%;
+      height: 100%;
+     
+     }
+ 
+  .centered{
+   padding: 20px 20px;
+    }
+
+ .container1
+ {
+  width:85% ;
+height: 65%;
+padding-top: 30px;
+
+ }
+ .box
+ {
+    width: 200px;
+  height: 300px;
+  
+
+ }
+ div.box2 p
+ {
+    
+   font-size: 12px;
+  margin-right: 25px;
+
+ 
+ }
+ .box3 h2{
+  display: none;
+  
+} 
+
+  .EDUCATION {
+   display: none;
+  }
+
+.container2{ 
+  margin-top: 10px;
+  padding: 25px;
+height:70%;
+ width: 85%;
+ margin-right: 50px;
+ margin-left:50px;}
+ 
+.experince{ 
+ width: 90%;
+ height: 95%;
+ margin-top: 10px;
+ margin-right:5px;
+ margin-left: 25px;
+ font-size: 12px;
+ text-align: center;  }
+
+ .experince li
+ {  
+margin-top: 5px;
+text-align: center;
+font-weight: 700;
+color:rgb(248, 93, 93);}
+
+
+.btn1{
+ 
+  padding: 10px px;
+  }
+
+
+  .container4{
+    margin-top: 20px;
+      padding: 25px;
+    height: 7%;
+     width: 85%;
+     margin-right: 30px;
+     margin-left: 50px;
+    
+   } 
+   
+  h2{
+        text-align: center;
+     font-size: 15px;
+     font-weight: 100;
+    
+  
+   }
+   .skills:not(:last-child){
+     margin-bottom: 25px;
+   }
+
+   .bar div{
+    position: relative;
+    width: 0;
+    height: 12px;}
+
+ #contact{
+  height: 230vh;
+  margin-top: 10px;
+ }
+
+  .container3
+
+{grid-template-columns: repeat(auto-fill, minmax(500px,1fr));
+ grid-gap: 30px;
+ 
+ margin-top: 10px;
+ margin-right: 10px;
+ margin-left: 60px;
+
+}
+
+.follow
+{
+  display: none;
+  margin-right: 15px;
+  border-radius: 10px;
+  width: 91%;
+  height: 100%;
+  margin-top: -35px; 
+background-color: white}
+  
+  
+
+ .form-group
+
+{
+  margin-top: 10px;
+ 
+  }
+  .form-group textarea 
+{
+  margin-top: 20px;
+ width: 931;
+ padding: 20px;
+
+ 
+
+  }
+  
+
+  .form-group input  
+
+  {
+   width: 91%;
+   background-color: white;
+ margin-top: -5px;
+      padding: 20x;
+  
+    }
+  
+.Detail1  {
+   margin-top: 30px;
+  text-align: center;
+  
+}
+
+
+p i
+{
+margin-top: -20px;
+margin-right: 10px;
+}
+.btn2{
+  padding: 10px 20px;
+  margin-bottom: 10px;
+  font-size: 15px;
+  color: black;
+}
+.icons{
+ display: hide;
+  font-size: 20px;
+padding-top: 25px;
+  line-height: 40px;
+  text-align: center;
+  
+ }
+
+
+
+
+}
